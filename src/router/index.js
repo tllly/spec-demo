@@ -31,6 +31,11 @@ const router = createRouter({
       path: '/join',
       name: 'join',
       component: () => import('../views/JoinView.vue')
+    },
+    {
+      path: '/personnel',
+      name: 'personnel',
+      component: () => import('../views/PersonnelView.vue')
     }
   ]
 })
